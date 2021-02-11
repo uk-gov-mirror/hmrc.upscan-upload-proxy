@@ -32,7 +32,7 @@ class XmlErrorResponseSpec extends AnyWordSpecLike with should.Matchers {
            |  <Code>NoSuchKey</Code>
            |  <Message>The resource you requested does not exist</Message>
            |  <Resource>/mybucket/myfoto.jpg</Resource>
-           |  <RequestId>4442587FB7D0A2F9</RequestId>
+           |  <RequestId>4442587FB7D0A2F8</RequestId>
            |</Error>""".stripMargin
 
       "be parseable into fields" in {
